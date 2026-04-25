@@ -240,23 +240,23 @@ function FeatureCard3() {
              <g className="journey-node invisible" transform="translate(10, 20)">
                <circle cx="0" cy="0" r="4" fill="#4FB3BF" />
                <circle cx="0" cy="0" r="8" fill="none" stroke="#4FB3BF" strokeWidth="1" opacity="0.4" />
-               <text x="-5" y="-12" fontSize="5" fontFamily="monospace" fill="#0F172A">Intake</text>
+               <text x="-6" y="-10" fontSize="5" fontFamily="monospace" fill="#0F172A" fontWeight="bold" paintOrder="stroke" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">Intake</text>
              </g>
 
              <g className="journey-node invisible" transform="translate(42, 55)">
                <circle cx="0" cy="0" r="4" fill="#1A73E8" />
-               <text x="-25" y="0" fontSize="5" fontFamily="monospace" fill="#0F172A">Diagnose</text>
+               <text x="-32" y="-2" fontSize="5" fontFamily="monospace" fill="#0F172A" fontWeight="bold" paintOrder="stroke" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">Diagnose</text>
              </g>
 
              <g className="journey-node invisible" transform="translate(60, 80)">
                <circle cx="0" cy="0" r="4" fill="#1A73E8" />
-               <text x="8" y="2" fontSize="5" fontFamily="monospace" fill="#0F172A">Treat</text>
+               <text x="-5" y="10" fontSize="5" fontFamily="monospace" fill="#0F172A" fontWeight="bold" paintOrder="stroke" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">Treat</text>
              </g>
 
              <g className="journey-node invisible" transform="translate(90, 20)">
                <circle cx="0" cy="0" r="4" fill="#16A34A" />
                <circle cx="0" cy="0" r="8" fill="#16A34A" opacity="0.2" />
-               <text x="-15" y="-12" fontSize="5" fontFamily="monospace" fill="#0F172A" fontWeight="bold">Follow-up</text>
+               <text x="-12" y="-10" fontSize="5" fontFamily="monospace" fill="#0F172A" fontWeight="bold" paintOrder="stroke" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">Follow-up</text>
              </g>
            </svg>
         </div>
